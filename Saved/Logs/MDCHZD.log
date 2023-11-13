@@ -4739,3 +4739,14 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.13-19.52.55:233][175]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/WizzardCharacter/BPCharacter_Wizard_Auto0
 [2023.11.13-19.52.55:233][175]LogSavePackage: Moving '../../../../../../Users/mat/Desktop/VHS/MDCHZD/Saved/BPCharacter_Wizard_Auto0528908FB49F0C8F80DD0B7B21DBE2F2D.tmp' to '../../../../../../Users/mat/Desktop/VHS/MDCHZD/Saved/Autosaves/Game/Characters/WizzardCharacter/BPCharacter_Wizard_Auto0.uasset'
 [2023.11.13-19.52.55:234][175]LogFileHelpers: Auto-saving content packages took 0.072
+[2023.11.13-19.54.45:131][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.11.13-19.54.45:137][115]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.13-19.54.45:217][115]LogSavePackage: Moving output files for package: /Game/Characters/WizzardCharacter/BPCharacter_Wizard
+[2023.11.13-19.54.45:218][115]LogSavePackage: Moving '../../../../../../Users/mat/Desktop/VHS/MDCHZD/Saved/BPCharacter_Wizard676DB72848022E31F87B2FBCFC4C2B72.tmp' to '../../../../../../Users/mat/Desktop/VHS/MDCHZD/Content/Characters/WizzardCharacter/BPCharacter_Wizard.uasset'
+[2023.11.13-19.54.45:220][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Input/Actions/IA_Attack" FILE="../../../../../../Users/mat/Desktop/VHS/MDCHZD/Content/ThirdPerson/Input/Actions/IA_Attack.uasset" SILENT=true
+[2023.11.13-19.54.45:224][115]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Input/Actions/IA_Attack
+[2023.11.13-19.54.45:224][115]LogSavePackage: Moving '../../../../../../Users/mat/Desktop/VHS/MDCHZD/Saved/IA_Attack5579C8944B9F44607CD8A0A2CC0A4121.tmp' to '../../../../../../Users/mat/Desktop/VHS/MDCHZD/Content/ThirdPerson/Input/Actions/IA_Attack.uasset'
+[2023.11.13-19.54.45:237][115]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 20.1 sec)
+[2023.11.13-19.54.45:249][115]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.13-19.54.45:249][115]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/WizzardCharacter/BPCharacter_Wizard.BPCharacter_Wizard
+[2023.11.13-19.54.45:249][115]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/ThirdPerson/Input/Actions/IA_Attack.IA_Attack
