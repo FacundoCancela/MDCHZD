@@ -4751,3 +4751,88 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.13-19.54.45:249][115]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/WizzardCharacter/BPCharacter_Wizard.BPCharacter_Wizard
 [2023.11.13-19.54.45:249][115]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/ThirdPerson/Input/Actions/IA_Attack.IA_Attack
 [2023.11.13-19.55.36:057][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.11.13-20.05.28:711][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.11.13-20.05.28:718][320]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.076
+[2023.11.13-20.05.28:718][320]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/WizzardCharacter/BPCharacter_Wizard] ([2] browsable assets)...
+[2023.11.13-20.05.28:727][320]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/WizzardCharacter/BPCharacter_Wizard.BPCharacter_Wizard]
+[2023.11.13-20.05.28:727][320]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/WizzardCharacter/BPCharacter_Wizard]
+[2023.11.13-20.05.28:745][320]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/WizzardCharacter/BPCharacter_Wizard_Auto1
+[2023.11.13-20.05.28:745][320]LogSavePackage: Moving '../../../../../../Users/mat/Desktop/VHS/MDCHZD/Saved/BPCharacter_Wizard_Auto1BDDE6F1049424F06EA551B9DCF9769F5.tmp' to '../../../../../../Users/mat/Desktop/VHS/MDCHZD/Saved/Autosaves/Game/Characters/WizzardCharacter/BPCharacter_Wizard_Auto1.uasset'
+[2023.11.13-20.05.28:746][320]LogFileHelpers: Auto-saving content packages took 0.029
+[2023.11.13-20.05.42:614][367]BlueprintLog: New page: Compile BPCharacter_Wizard
+[2023.11.13-20.05.42:637][367]LogBlueprint: Error: [AssetLog] C:\Users\mat\Desktop\VHS\MDCHZD\Content\Characters\WizzardCharacter\BPCharacter_Wizard.uasset: [Compiler] Could not find a function named "CastSpell" in 'BPCharacter_Wizard_C'.
+Make sure 'BPCharacter_Wizard_C' has been compiled for  Cast Spell
+[2023.11.13-20.05.42:740][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.11.13-20.05.52:899][  0]BlueprintLog: New page: Compile BPCharacter_Wizard
+[2023.11.13-20.05.53:017][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.11.13-20.05.56:846][220]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.13-20.05.56:852][220]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.11.13-20.05.56:855][220]LogWorldPartition: Display: GenerateStreaming started...
+[2023.11.13-20.05.56:855][220]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.11.13-20.05.56:855][220]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 1 ms)
+[2023.11.13-20.05.56:856][220]LogWorldPartition: Display: GenerateStreaming took 234 us (total: 14 ms)
+[2023.11.13-20.05.56:856][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.13-20.05.56:856][220]PIE: New page: PIE session: ThirdPersonMap (Nov 13, 2023, 2:05:56 PM)
+[2023.11.13-20.05.56:905][220]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.13-20.05.56:910][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005303s)
+[2023.11.13-20.05.56:910][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005354s)
+[2023.11.13-20.05.56:910][220]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.13-20.05.56:911][220]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.11.13-20.05.56:911][220]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.11.13-20.05.56:911][220]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.11.13-20.05.56:911][220]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.11.13-20.05.56:912][220]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2023.11.13-20.05.56:912][220]LogWorldPartition: Display: WorldPartition initialize took 991 us (total: 547 ms)
+[2023.11.13-20.05.56:912][220]LogPlayLevel: PIE: World Init took: (0.002131s)
+[2023.11.13-20.05.56:968][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.11.13-20.05.56:976][220]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2023.11.13-20.05.56:976][220]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.13-20.05.56:976][220]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.13-20.05.56:976][220]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.13-20.05.56:976][220]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.13-20.05.56:976][220]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.13-20.05.56:976][220]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.13-20.05.56:976][220]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.13-20.05.56:976][220]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.13-20.05.56:977][220]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.13-20.05.56:977][220]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.13-20.05.56:977][220]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.13-20.05.56:979][220]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.13-20.05.56:999][220]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (4- Astro A20 Game)
+[2023.11.13-20.05.57:000][220]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.13-20.05.57:000][220]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.13-20.05.57:000][220]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.13-20.05.57:000][220]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2023.11.13-20.05.57:000][220]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2023.11.13-20.05.57:002][220]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2023.11.13-20.05.57:002][220]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2023.11.13-20.05.57:002][220]LogInit: FAudioDevice initialized.
+[2023.11.13-20.05.57:002][220]LogAudio: Display: Audio Device (ID: 34) registered with world 'ThirdPersonMap'.
+[2023.11.13-20.05.57:007][220]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.13-20.05.57:009][220]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.11.13-17.05.57
+[2023.11.13-20.05.57:009][220]LogWorld: Bringing up level for play took: 0.001954
+[2023.11.13-20.05.57:012][220]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2023.11.13-20.05.57:015][220]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=90.212
+[2023.11.13-20.05.57:017][220]PIE: Server logged in
+[2023.11.13-20.05.57:018][220]PIE: Play in editor total start time 0.165 seconds.
+[2023.11.13-20.06.09:273][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-20.06.09:273][918]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.11.13-20.06.09:273][918]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.06.09:273][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-20.06.09:274][918]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.11.13-20.06.09:277][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.13-20.06.09:284][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-20.06.09:343][918]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.13-20.06.09:343][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.11.13-20.06.09:345][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.11.13-20.06.09:348][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-20.06.09:351][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.11.13-20.06.09:482][919]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2023.11.13-20.12.00:183][746]LogDerivedDataCache: C:/Users/mat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.119 and deleted 0 files with total size 0 MiB. Scanned 2396 files in 2380 folders with total size 73 MiB.
+[2023.11.13-20.14.01:931][304]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.11.13-20.14.01:939][304]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.13-20.14.02:069][304]LogSavePackage: Moving output files for package: /Game/Characters/WizzardCharacter/BPCharacter_Wizard
+[2023.11.13-20.14.02:070][304]LogSavePackage: Moving '../../../../../../Users/mat/Desktop/VHS/MDCHZD/Saved/BPCharacter_WizardC06D92374D912E801318B7A838395319.tmp' to '../../../../../../Users/mat/Desktop/VHS/MDCHZD/Content/Characters/WizzardCharacter/BPCharacter_Wizard.uasset'
+[2023.11.13-20.14.02:081][304]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 20.2 sec)
+[2023.11.13-20.14.02:091][304]AssetCheck: New page: Asset Save: BPCharacter_Wizard
+[2023.11.13-20.14.02:091][304]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/WizzardCharacter/BPCharacter_Wizard.BPCharacter_Wizard
