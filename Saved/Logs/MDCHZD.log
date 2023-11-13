@@ -4750,3 +4750,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.13-19.54.45:249][115]AssetCheck: New page: Asset Save: multiple assets
 [2023.11.13-19.54.45:249][115]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/WizzardCharacter/BPCharacter_Wizard.BPCharacter_Wizard
 [2023.11.13-19.54.45:249][115]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/ThirdPerson/Input/Actions/IA_Attack.IA_Attack
+[2023.11.13-19.55.36:057][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
