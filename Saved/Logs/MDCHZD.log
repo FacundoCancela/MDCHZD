@@ -4836,3 +4836,117 @@ Make sure 'BPCharacter_Wizard_C' has been compiled for  Cast Spell
 [2023.11.13-20.14.02:081][304]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 20.2 sec)
 [2023.11.13-20.14.02:091][304]AssetCheck: New page: Asset Save: BPCharacter_Wizard
 [2023.11.13-20.14.02:091][304]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Characters/WizzardCharacter/BPCharacter_Wizard.BPCharacter_Wizard
+[2023.11.13-20.14.13:975][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.11.13-20.14.13:981][420]LogStall: Shutdown...
+[2023.11.13-20.14.14:003][420]LogStall: Shutdown complete.
+[2023.11.13-20.14.14:207][420]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.14:208][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-20.14.14:924][420]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.11.13-20.14.14:924][420]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.14:924][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-20.14.15:292][420]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.15:292][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-20.14.15:346][420]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.15:346][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-20.14.15:368][420]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.15:369][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-20.14.15:805][420]LogSlate: Window 'WP_Mna' being destroyed
+[2023.11.13-20.14.15:903][420]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.15:903][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-20.14.15:914][420]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.15:915][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-20.14.16:284][420]LogSlate: Window 'Editor Preferences' being destroyed
+[2023.11.13-20.14.17:525][420]LogSlate: Window 'Message Log' being destroyed
+[2023.11.13-20.14.17:530][420]LogSlate: Window 'MDCHZD - Unreal Editor' being destroyed
+[2023.11.13-20.14.17:822][421]Cmd: QUIT_EDITOR
+[2023.11.13-20.14.17:825][421]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.11.13-20.14.17:844][421]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.11.13-20.14.17:844][421]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.11.13-20.14.17:845][421]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.11.13-20.14.17:850][421]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.17:851][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-20.14.17:853][421]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.11.13-20.14.17:885][421]LogStylusInput: Shutting down StylusInput subsystem.
+[2023.11.13-20.14.17:903][421]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.11.13-20.14.18:851][421]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.11.13-20.14.18:851][421]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.11.13-20.14.18:851][421]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2023.11.13-20.14.18:862][421]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.11.13-20.14.18:866][421]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.11.13-20.14.18:892][421]LogAudio: Display: Audio Device Manager Shutdown
+[2023.11.13-20.14.18:901][421]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.11.13-20.14.18:901][421]LogExit: Preparing to exit.
+[2023.11.13-20.14.19:123][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.11.13-20.14.19:185][421]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:187][421]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:205][421]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:206][421]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:206][421]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:206][421]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:206][421]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:207][421]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:207][421]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:207][421]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:207][421]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:207][421]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:207][421]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:208][421]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:208][421]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:208][421]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:208][421]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:208][421]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.19:208][421]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.13-20.14.20:395][421]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:399][421]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:402][421]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:405][421]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:408][421]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:412][421]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:414][421]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:417][421]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:425][421]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:428][421]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:431][421]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:434][421]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:437][421]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:440][421]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:442][421]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:445][421]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.20:448][421]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-20.14.21:901][421]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.11.13-20.14.23:107][421]LogExit: Editor shut down
+[2023.11.13-20.14.23:253][421]LogExit: Transaction tracking system shut down
+[2023.11.13-20.14.31:213][421]LogExit: Object subsystem successfully closed.
+[2023.11.13-20.14.31:281][421]LogShaderCompilers: Display: ================================================
+[2023.11.13-20.14.31:281][421]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.13-20.14.31:281][421]LogShaderCompilers: Display: Total job queries 3802, among them cache hits 34 (0.89%)
+[2023.11.13-20.14.31:281][421]LogShaderCompilers: Display: Tracking 3768 distinct input hashes that result in 2660 distinct outputs (70.59%)
+[2023.11.13-20.14.31:281][421]LogShaderCompilers: Display: RAM used: 26.18 MB (0.03 GB) of 819.20 MB (0.80 GB) budget. Usage: 3.20%
+[2023.11.13-20.14.31:281][421]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.13-20.14.31:281][421]LogShaderCompilers: Display: Shaders Compiled: 3768
+[2023.11.13-20.14.31:281][421]LogShaderCompilers: Display: Jobs assigned 3768, completed 3768 (100.00%)
+[2023.11.13-20.14.31:281][421]LogShaderCompilers: Display: Average time worker was idle: 121.76 s
+[2023.11.13-20.14.31:281][421]LogShaderCompilers: Display: Time job spent in pending queue: average 127.94 s, longest 280.36 s
+[2023.11.13-20.14.31:286][421]LogShaderCompilers: Display: Job execution time: average 6.98 s, max 38.74 s
+[2023.11.13-20.14.31:286][421]LogShaderCompilers: Display: Job life time (pending + execution): average 134.93 s, max 281.38
+[2023.11.13-20.14.31:286][421]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 393.48 s
+[2023.11.13-20.14.31:286][421]LogShaderCompilers: Display: Jobs were issued in 524 batches (only local compilation was used), average 7.19 jobs/batch
+[2023.11.13-20.14.31:286][421]LogShaderCompilers: Display: Average processing rate: 9.58 jobs/sec
+[2023.11.13-20.14.31:286][421]LogShaderCompilers: Display: Total thread time: 3010.79 s
+[2023.11.13-20.14.31:286][421]LogShaderCompilers: Display: Total thread preprocess time: 150.86 s
+[2023.11.13-20.14.31:286][421]LogShaderCompilers: Display: Percentage time preprocessing: 5.01%
+[2023.11.13-20.14.31:286][421]LogShaderCompilers: Display: Effective parallelization: 7.65 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 7.48 sec, max 9.30 sec, min 4.99 sec)
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 6.58 sec, max 11.46 sec, min 2.60 sec)
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.51 sec, max 4.61 sec, min 1.56 sec)
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  150 times, average 2.34 sec, max 4.25 sec, min 2.04 sec)
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 2.26 sec, max 2.26 sec, min 2.26 sec)
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.66% of total time (compiled  150 times, average 2.34 sec, max 4.25 sec, min 2.04 sec)
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 3.36% of total time (compiled   96 times, average 1.05 sec, max 1.61 sec, min 0.43 sec)
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 3.32% of total time (compiled   54 times, average 1.85 sec, max 8.99 sec, min 0.60 sec)
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 3.32% of total time (compiled  128 times, average 0.78 sec, max 1.24 sec, min 0.46 sec)
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.20% of total time (compiled  128 times, average 0.75 sec, max 1.95 sec, min 0.58 sec)
+[2023.11.13-20.14.31:310][421]LogShaderCompilers: Display: ================================================
+[2023.11.13-20.14.31:421][421]LogShaderCompilers: Display: Shaders left to compile 0
