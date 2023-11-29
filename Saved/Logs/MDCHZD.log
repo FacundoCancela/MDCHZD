@@ -3025,3 +3025,129 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.11.29-09.45.12:786][625]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{90cb2086-4e47-4078-9fec-f6907b5d0f29}, Name=Altavoces (USB Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=34.94
 [2023.11.29-09.45.12:786][625]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
 [2023.11.29-09.45.12:788][625]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.29-09.45.43:380][763]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.11.29-09.45.43:395][763]LogStall: Shutdown...
+[2023.11.29-09.45.43:414][763]LogStall: Shutdown complete.
+[2023.11.29-09.45.43:639][763]LogSlate: Window 'MDCHZD - Unreal Editor' being destroyed
+[2023.11.29-09.45.46:207][764]Cmd: QUIT_EDITOR
+[2023.11.29-09.45.46:207][764]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.11.29-09.45.46:274][764]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.11.29-09.45.46:274][764]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.11.29-09.45.46:301][764]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.11.29-09.45.46:328][764]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.46:328][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.29-09.45.46:528][764]LogStylusInput: Shutting down StylusInput subsystem.
+[2023.11.29-09.45.46:616][764]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.11.29-09.45.48:592][764]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.11.29-09.45.48:592][764]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.11.29-09.45.48:592][764]LogAudio: Display: Audio Device unregistered from world 'MainMenuLevel'.
+[2023.11.29-09.45.48:602][764]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.11.29-09.45.48:604][764]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.11.29-09.45.48:637][764]LogAudio: Display: Audio Device Manager Shutdown
+[2023.11.29-09.45.48:726][764]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.11.29-09.45.49:388][764]LogExit: Preparing to exit.
+[2023.11.29-09.45.50:370][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.11.29-09.45.50:427][764]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:427][764]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:431][764]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.50:432][764]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.29-09.45.51:927][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:927][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:927][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:927][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:927][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:927][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:927][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:927][764]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.51:930][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:930][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:930][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:930][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:930][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:930][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:930][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:930][764]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.51:932][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:932][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:932][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:932][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:932][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:932][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:932][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:932][764]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.51:935][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:935][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:935][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:935][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:935][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:935][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:935][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:935][764]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.51:938][764]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.51:941][764]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.51:944][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:944][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:944][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:944][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:944][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:944][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:944][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:944][764]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.51:947][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:947][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:947][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:947][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:947][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:947][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:947][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:947][764]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.51:950][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:950][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:950][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:950][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:950][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:950][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:950][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:950][764]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.51:953][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:953][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:953][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:953][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:953][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:953][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:953][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:953][764]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.51:956][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:956][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:956][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:956][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:956][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:956][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:956][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:956][764]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.51:961][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:961][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:961][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:961][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:961][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:961][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:961][764]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.29-09.45.51:961][764]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.29-09.45.52:372][764]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.11.29-09.45.52:612][764]LogExit: Editor shut down
+[2023.11.29-09.45.52:616][764]LogExit: Transaction tracking system shut down
