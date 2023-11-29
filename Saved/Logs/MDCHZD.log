@@ -3020,3 +3020,8 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.11.29-09.43.41:786][986]AssetCheck: New page: Asset Save: MainMenuLevel
 [2023.11.29-09.43.41:787][986]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenuLevel.MainMenuLevel
 [2023.11.29-09.44.13:074][157]LogEditorViewport: Clicking Background
+[2023.11.29-09.45.12:271][624]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Altavoces (USB Audio Device), InstanceID=1
+[2023.11.29-09.45.12:451][624]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=9468
+[2023.11.29-09.45.12:786][625]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{90cb2086-4e47-4078-9fec-f6907b5d0f29}, Name=Altavoces (USB Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=34.94
+[2023.11.29-09.45.12:786][625]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.29-09.45.12:788][625]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
