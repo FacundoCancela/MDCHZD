@@ -1,0 +1,5 @@
+[1129/032306.086:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[1129/032623.056:WARNING:gpu_process_host.cc(1296)] The GPU process has crashed 1 time(s)
+[1129/032623.260:WARNING:gpu_process_host.cc(1016)] Reinitialized the GPU process after a crash. The reported initialization time was 146 ms
+[1129/032623.747:ERROR:command_buffer_proxy_impl.cc(121)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
+[1129/032623.747:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
