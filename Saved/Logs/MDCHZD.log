@@ -3869,3 +3869,147 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.30-20.49.13:522][652]LogShaderCompilers: Display: Worker (8/9) finished batch of 10 jobs in 120.711s, FLumenCardPS<false> [WorkerTime=92.811s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=3.226s], FTranslucentLightingInjectPS [WorkerTime=3.222s], TLightMapDensityPSFDummyLightMapPolicy [WorkerTime=2.448s], FDebugViewModePS [WorkerTime=1.652s], FLumenCardPS<false> [WorkerTime=1.243s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrect [WorkerTime=1.129s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrect [WorkerTime=1.117s], TShadowDepthPSPixelShadowDepth_PerspectiveCorrect [WorkerTime=0.889s], DepthNoPixelPipeline
 [2023.11.30-20.49.13:965][652]LogStylusInput: Shutting down StylusInput subsystem.
 [2023.11.30-20.49.14:352][652]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.11.30-20.49.31:368][652]LogShaderCompilers: Display: Worker (6/9) finished batch of 10 jobs in 72.483s, FDebugViewModePS [WorkerTime=34.298s], TBasePassVSFCachedPointIndirectLightingPolicy [WorkerTime=17.460s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=3.521s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=3.261s], FLumenCardVS [WorkerTime=1.795s], TLightMapDensityVSFNoLightMapPolicy [WorkerTime=1.466s], FDebugViewModeVS [WorkerTime=1.209s], TLightMapDensityVSFDummyLightMapPolicy [WorkerTime=1.193s], TShadowDepthVSVertexShadowDepth_OnePassPointLight [WorkerTime=1.175s], TShadowDepthPSPixelShadowDepth_VirtualShadowMap [WorkerTime=0.868s]
+[2023.11.30-20.49.31:668][652]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.11.30-20.49.31:668][652]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.11.30-20.49.31:668][652]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2023.11.30-20.49.31:673][652]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.11.30-20.49.31:676][652]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.11.30-20.49.32:918][652]LogAudio: Display: Audio Device Manager Shutdown
+[2023.11.30-20.49.33:433][652]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.11.30-20.49.34:445][652]LogExit: Preparing to exit.
+[2023.11.30-20.49.39:100][652]LogUObjectHash: Compacting FUObjectHashTables data took  16.28ms
+[2023.11.30-20.49.39:341][652]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.39:399][652]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:252][652]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:424][652]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:464][652]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:465][652]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:465][652]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:574][652]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:575][652]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:575][652]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:575][652]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:575][652]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:608][652]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:608][652]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:608][652]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:608][652]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:608][652]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:608][652]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.49.40:705][652]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.11.30-20.50.01:590][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:591][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:591][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:591][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:591][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:591][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:591][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:591][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:594][652]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:597][652]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:601][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:601][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:601][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:601][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:601][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:601][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:601][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:601][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:604][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:604][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:604][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:604][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:604][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:604][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:604][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:604][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:608][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:608][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:608][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:608][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:608][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:608][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:608][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:608][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:611][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:611][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:611][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:611][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:611][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:611][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:611][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:611][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:614][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:614][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:615][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:615][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:615][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:615][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:615][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:615][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:618][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:618][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:618][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:618][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:618][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:618][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:618][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:618][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:621][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:621][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:621][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:621][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:621][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:621][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:621][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:621][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:624][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:624][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:624][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:624][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:624][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:624][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:624][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:624][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:627][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:627][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:627][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:627][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:627][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:627][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:628][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:628][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:631][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:631][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:631][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:631][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:631][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:631][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:631][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:631][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:635][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:635][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:635][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:635][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:635][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:635][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:635][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:635][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:639][652]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:643][652]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:646][652]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:649][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:649][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:650][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:650][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:650][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:650][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:650][652]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.11.30-20.50.01:650][652]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.01:653][652]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-20.50.09:428][652]LogShaderCompilers: Display: Worker (2/9) finished batch of 10 jobs in 74.070s, TBasePassVSFNoLightMapPolicy [WorkerTime=42.015s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrect [WorkerTime=8.927s], TLightMapDensityPSTLightMapPolicyHQ [WorkerTime=2.680s], TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ [WorkerTime=2.573s], TShadowDepthPSPixelShadowDepth_OnePassPointLight [WorkerTime=1.343s], TLightMapDensityVSFNoLightMapPolicy [WorkerTime=1.122s], TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect [WorkerTime=1.036s], TShadowDepthPSPixelShadowDepth_OnePassPointLight [WorkerTime=0.965s], TShadowDepthPSPixelShadowDepth_VirtualShadowMap [WorkerTime=0.769s], DepthPosOnlyNoPixelPipeline
+[2023.11.30-20.50.12:214][652]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.11.30-20.50.14:701][652]LogExit: Editor shut down
+[2023.11.30-20.50.15:023][652]LogExit: Transaction tracking system shut down
+[2023.11.30-20.50.17:665][652]LogShaderCompilers: Display: Worker (3/9) finished batch of 10 jobs in 79.092s, TBasePassPSTLightMapPolicyHQ [WorkerTime=37.400s], FLumenCardPS<false> [WorkerTime=10.554s], TLightMapDensityPSFNoLightMapPolicy [WorkerTime=7.449s], TShadowDepthVSVertexShadowDepth_VirtualShadowMapPositionOnly [WorkerTime=4.482s], TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ [WorkerTime=1.878s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=1.669s], TLightMapDensityVSFDummyLightMapPolicy [WorkerTime=1.404s], FTranslucentLightingInjectPS [WorkerTime=1.105s], TShadowDepthPSPixelShadowDepth_VirtualShadowMap [WorkerTime=0.718s], VelocityPipeline
