@@ -4013,3 +4013,66 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.30-20.50.14:701][652]LogExit: Editor shut down
 [2023.11.30-20.50.15:023][652]LogExit: Transaction tracking system shut down
 [2023.11.30-20.50.17:665][652]LogShaderCompilers: Display: Worker (3/9) finished batch of 10 jobs in 79.092s, TBasePassPSTLightMapPolicyHQ [WorkerTime=37.400s], FLumenCardPS<false> [WorkerTime=10.554s], TLightMapDensityPSFNoLightMapPolicy [WorkerTime=7.449s], TShadowDepthVSVertexShadowDepth_VirtualShadowMapPositionOnly [WorkerTime=4.482s], TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ [WorkerTime=1.878s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=1.669s], TLightMapDensityVSFDummyLightMapPolicy [WorkerTime=1.404s], FTranslucentLightingInjectPS [WorkerTime=1.105s], TShadowDepthPSPixelShadowDepth_VirtualShadowMap [WorkerTime=0.718s], VelocityPipeline
+[2023.11.30-20.51.11:851][652]LogExit: Object subsystem successfully closed.
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: ================================================
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Total job queries 7848, among them cache hits 118 (1.50%)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Tracking 6054 distinct input hashes that result in 2730 distinct outputs (45.09%)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: RAM used: 42.20 MB (0.04 GB) of 819.20 MB (0.80 GB) budget. Usage: 5.15%
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Shaders Compiled: 5789
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Jobs assigned 5789, completed 5789 (100.00%)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Average time worker was idle: 4.19 s
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Time job spent in pending queue: average 1812.21 s, longest 3400.25 s
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Job execution time: average 16.27 s, max 475.53 s
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Job life time (pending + execution): average 1828.49 s, max 3427.19
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3543.89 s
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Jobs were issued in 3917 batches (only local compilation was used), average 1.48 jobs/batch
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Average processing rate: 1.63 jobs/sec
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Total thread time: 19770.38 s
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Total thread preprocess time: 2533.97 s
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Percentage time preprocessing: 12.82%
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Effective parallelization: 5.58 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display:                                             FLightFunctionPS (compiled    1 times, average 97.56 sec, max 97.56 sec, min 97.56 sec)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled  144 times, average 7.04 sec, max 115.76 sec, min 1.30 sec)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    8 times, average 5.72 sec, max 27.85 sec, min 1.47 sec)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    9 times, average 5.41 sec, max 24.51 sec, min 2.02 sec)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled   45 times, average 5.18 sec, max 37.40 sec, min 1.55 sec)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.31% of total time (compiled  332 times, average 3.75 sec, max 88.63 sec, min 1.01 sec)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.81% of total time (compiled  325 times, average 3.53 sec, max 70.96 sec, min 0.84 sec)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.58% of total time (compiled  274 times, average 4.03 sec, max 84.85 sec, min 0.88 sec)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.52% of total time (compiled  217 times, average 5.03 sec, max 205.82 sec, min 1.22 sec)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.47% of total time (compiled  298 times, average 3.63 sec, max 119.00 sec, min 0.82 sec)
+[2023.11.30-20.51.12:020][652]LogShaderCompilers: Display: ================================================
+[2023.11.30-20.51.12:058][652]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.11.30-20.51.14:423][652]LogVirtualization: UE::Virtualization was shutdown
+[2023.11.30-20.51.21:976][652]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (999)
+[2023.11.30-20.51.21:976][652]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (995)
+[2023.11.30-20.51.21:976][652]LogModuleManager: Shutting down and abandoning module Voice (993)
+[2023.11.30-20.51.21:994][652]LogModuleManager: Shutting down and abandoning module SequencerWidgets (991)
+[2023.11.30-20.51.21:994][652]LogModuleManager: Shutting down and abandoning module BlueprintGraph (989)
+[2023.11.30-20.51.21:994][652]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (987)
+[2023.11.30-20.51.21:994][652]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (985)
+[2023.11.30-20.51.21:994][652]LogModuleManager: Shutting down and abandoning module AddContentDialog (983)
+[2023.11.30-20.51.22:301][652]LogModuleManager: Shutting down and abandoning module WidgetCarousel (982)
+[2023.11.30-20.51.22:301][652]LogModuleManager: Shutting down and abandoning module SubobjectEditor (979)
+[2023.11.30-20.51.22:301][652]LogModuleManager: Shutting down and abandoning module SceneOutliner (977)
+[2023.11.30-20.51.22:301][652]LogModuleManager: Shutting down and abandoning module StatusBar (975)
+[2023.11.30-20.51.22:301][652]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (973)
+[2023.11.30-20.51.22:325][652]LogModuleManager: Shutting down and abandoning module StatsViewer (971)
+[2023.11.30-20.51.22:354][652]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (969)
+[2023.11.30-20.51.22:354][652]LogModuleManager: Shutting down and abandoning module AutomationWorker (967)
+[2023.11.30-20.51.22:384][652]LogModuleManager: Shutting down and abandoning module TextureAlignMode (965)
+[2023.11.30-20.51.22:385][652]LogModuleManager: Shutting down and abandoning module BspMode (963)
+[2023.11.30-20.51.22:392][652]LogModuleManager: Shutting down and abandoning module GeometryMode (961)
+[2023.11.30-20.51.22:421][652]LogModuleManager: Shutting down and abandoning module SmartSnapping (959)
+[2023.11.30-20.51.22:421][652]LogModuleManager: Shutting down and abandoning module PlanarCut (957)
+[2023.11.30-20.51.22:449][652]LogModuleManager: Shutting down and abandoning module CharacterAI (955)
+[2023.11.30-20.51.22:449][652]LogModuleManager: Shutting down and abandoning module WaveTableEditor (953)
+[2023.11.30-20.51.22:492][652]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (951)
+[2023.11.30-20.51.22:492][652]LogModuleManager: Shutting down and abandoning module GooglePADEditor (949)
+[2023.11.30-20.51.22:492][652]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (947)
+[2023.11.30-20.51.22:492][652]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (945)
+[2023.11.30-20.51.22:492][652]LogModuleManager: Shutting down and abandoning module ControlRigEditor (943)
