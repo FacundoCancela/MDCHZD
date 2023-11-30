@@ -1,3 +1,5 @@
-2023/11/29-13:25:15.186 a08 Reusing MANIFEST K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2023/11/29-13:25:15.187 a08 Recovering log #3
-2023/11/29-13:25:15.216 a08 Reusing old log K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\Local Storage\leveldb/000003.log 
+2023/11/30-01:26:15.900 948 Reusing MANIFEST K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2023/11/30-01:26:15.974 948 Recovering log #3
+2023/11/30-01:26:16.145 948 Level-0 table #3: started
+2023/11/30-01:26:16.270 948 Level-0 table #3: 17461 bytes OK
+2023/11/30-01:26:16.354 948 Delete type=0 #3

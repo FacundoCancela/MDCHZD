@@ -1,2 +1,8 @@
-2023/11/29-03:26:25.412 1830 Creating DB K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
-2023/11/29-03:26:25.583 1830 Reusing MANIFEST K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/30-01:44:32.518 3ae8 Reusing MANIFEST K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/30-01:44:32.519 3ae8 Recovering log #4
+2023/11/30-01:44:32.519 3ae8 Reusing old log K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/000004.log 
+2023/11/30-01:44:36.825 38a0 Level-0 table #8: started
+2023/11/30-01:44:36.826 38a0 Level-0 table #8: 0 bytes OK
+2023/11/30-01:44:37.047 38a0 Delete type=0 #4
+2023/11/30-01:44:37.047 38a0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/11/30-01:44:37.047 38a0 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
