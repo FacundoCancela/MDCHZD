@@ -1,1 +1,33 @@
-[1130/054252.354:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[1206/051509.276:ERROR:backend_impl.cc(1041)] Critical error found -8
+[1206/051509.288:ERROR:entry_impl.cc(1075)] No file for c103001e
+[1206/051509.288:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.288:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.288:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.288:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.288:ERROR:entry_impl.cc(1075)] No file for c1030024
+[1206/051509.288:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.288:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.288:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.288:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.288:ERROR:entry_impl.cc(1075)] No file for c1030026
+[1206/051509.289:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.289:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.289:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.289:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.289:ERROR:entry_impl.cc(1075)] No file for c1030002
+[1206/051509.289:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.289:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.289:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.289:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.289:ERROR:entry_impl.cc(1075)] No file for c1030000
+[1206/051509.289:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.289:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.289:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.290:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051509.290:WARNING:storage_block-inl.h(146)] Failed data load.
+[1206/051515.498:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[1206/051535.998:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb,IO error: K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[1206/051536.005:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb,IO error: K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[1206/051539.599:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb,IO error: K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[1206/051539.618:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb,IO error: K:/Unreal/Documents/MDCHZD/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[1206/051659.913:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
